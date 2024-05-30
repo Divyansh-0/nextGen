@@ -41,7 +41,7 @@ const Navbar = () => {
               }
             >
               <a
-                href="/home"
+                href="/"
                 className={
                   hideMenu
                     ? `navigation-menu_li_a`

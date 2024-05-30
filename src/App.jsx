@@ -29,6 +29,10 @@ function App() {
       element: <Root />,
       children: [
         {
+          index: true, // This sets Home as the default child for Root
+          element: <Home />,
+        },
+        {
           path: "/auth",
           element: <Register />,
         },
@@ -36,10 +40,7 @@ function App() {
           path: "/sign",
           element: <Sign />,
         },
-        {
-          path: "/home",
-          element: <Home />,
-        },
+
         {
           path: "/about",
 
